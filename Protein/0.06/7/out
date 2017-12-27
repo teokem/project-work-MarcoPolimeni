@@ -1,0 +1,677 @@
+Writing space state file 'init'. OK!
+Reading space state file 'state'. # Reading process H-Arg ... OK!
+# Reading process H-Asp ... OK!
+# Reading process H-Ctr ... ignored.
+# Reading process H-Cys ... OK!
+# Reading process H-Glu ... OK!
+# Reading process H-His ... OK!
+# Reading process H-Lys ... OK!
+# Reading process H-Ntr ... OK!
+# Reading process H-Tyr ... OK!
+
+ .................
+  Atom Properties  
+ *****************
+  Number of entries:       32
+  Element info:
+    unk   ALA   ARG   ASN   ASP   BCYS  CTR   CYS   GLN   GLU   
+    GLY   HARG  HASP  HCTR. HCYS  HGLU  HHIS  HIS   HLYS  HNTR  
+    HTYR  ILE   LEU   LYS   MET   NTR   PHE   PRO   SER   TRP   
+    TYR   VAL   
+
+ ...............................
+  Simulation Space and Geometry  
+ *******************************
+  Boundary                 Cylinder (hard ends)
+  Volume                   3.80133e+06 Å³ = 3801.33 nm³ = 3.80133e-21 liters
+  Length                   400 Å
+  Radius                   55 Å
+  Number of particles      80
+  Electroneutrality        NO! -26
+  System sanity check      Passed
+  Number of molecule types 2
+  Groups:
+    1     [0-39]           0sphere     
+    2     [40-79]          1sphere     
+
+ ......................................................
+  Energy: Nonbonded N² - Lennard-Jones+Coulomb-Yukawa  
+ ******************************************************
+  Lennard-Jones pair parameters:
+
+       ALA<->ALA  σ =    5.02 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ARG<->ALA  σ =    5.84 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ARG<->ARG  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ASN<->ALA  σ =     5.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ASN<->ARG  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ASN<->ASN  σ =    5.58 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ASP<->ALA  σ =    5.48 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ASP<->ARG  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ASP<->ASN  σ =    5.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ASP<->ASP  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      BCYS<->ALA  σ =    5.37 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      BCYS<->ARG  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      BCYS<->ASN  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      BCYS<->ASP  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     BCYS<->BCYS  σ =    5.72 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CTR<->ALA  σ =    4.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CTR<->ARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CTR<->ASN  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CTR<->ASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      CTR<->BCYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CTR<->CTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CYS<->ALA  σ =    5.37 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CYS<->ARG  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CYS<->ASN  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CYS<->ASP  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      CYS<->BCYS  σ =    5.72 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CYS<->CTR  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       CYS<->CYS  σ =    5.72 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLN<->ALA  σ =    4.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLN<->ARG  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLN<->ASN  σ =    4.69 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLN<->ASP  σ =    4.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      GLN<->BCYS  σ =    4.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLN<->CTR  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLN<->CYS  σ =    4.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLN<->GLN  σ =     3.8 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->ALA  σ =    5.59 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->ARG  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->ASN  σ =    5.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->ASP  σ =    6.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      GLU<->BCYS  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->CTR  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->CYS  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->GLN  σ =    4.98 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLU<->GLU  σ =    6.16 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->ALA  σ =    4.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->ARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->ASN  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->ASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      GLY<->BCYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->CTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->CYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->GLN  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->GLU  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       GLY<->GLY  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->ALA  σ =    5.84 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->ARG  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->ASN  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->ASP  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HARG<->BCYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->CTR  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->CYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->GLN  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->GLU  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HARG<->GLY  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HARG<->HARG  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->ALA  σ =    5.48 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->ARG  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->ASN  σ =    5.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->ASP  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HASP<->BCYS  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->CTR  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->CYS  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->GLN  σ =    4.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->GLU  σ =    6.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HASP<->GLY  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HASP<->HARG  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HASP<->HASP  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->ALA  σ =    4.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->ARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->ASN  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->ASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HCTR.<->BCYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->CTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->CYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->GLN  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->GLU  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCTR.<->GLY  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HCTR.<->HARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HCTR.<->HASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HCTR.<->HCTR.  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->ALA  σ =    5.37 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->ARG  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->ASN  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->ASP  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCYS<->BCYS  σ =    5.72 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->CTR  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->CYS  σ =    5.72 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->GLN  σ =    4.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->GLU  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HCYS<->GLY  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCYS<->HARG  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCYS<->HASP  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HCYS<->HCTR.  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HCYS<->HCYS  σ =    5.72 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->ALA  σ =    5.59 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->ARG  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->ASN  σ =    5.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->ASP  σ =    6.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HGLU<->BCYS  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->CTR  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->CYS  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->GLN  σ =    4.98 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->GLU  σ =    6.16 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HGLU<->GLY  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HGLU<->HARG  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HGLU<->HASP  σ =    6.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HGLU<->HCTR.  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HGLU<->HCYS  σ =    5.94 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HGLU<->HGLU  σ =    6.16 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->ALA  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->ARG  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->ASN  σ =    5.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->ASP  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HHIS<->BCYS  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->CTR  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->CYS  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->GLN  σ =    5.04 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->GLU  σ =    6.22 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HHIS<->GLY  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HHIS<->HARG  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HHIS<->HASP  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HHIS<->HCTR.  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HHIS<->HCYS  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HHIS<->HGLU  σ =    6.22 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HHIS<->HHIS  σ =    6.28 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->ALA  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->ARG  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->ASN  σ =    5.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->ASP  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HIS<->BCYS  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->CTR  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->CYS  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->GLN  σ =    5.04 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->GLU  σ =    6.22 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->GLY  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HIS<->HARG  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HIS<->HASP  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HIS<->HCTR.  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HIS<->HCYS  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HIS<->HGLU  σ =    6.22 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HIS<->HHIS  σ =    6.28 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       HIS<->HIS  σ =    6.28 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->ALA  σ =    5.54 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->ARG  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->ASN  σ =    5.82 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->ASP  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HLYS<->BCYS  σ =    5.89 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->CTR  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->CYS  σ =    5.89 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->GLN  σ =    4.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->GLU  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->GLY  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HLYS<->HARG  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HLYS<->HASP  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HLYS<->HCTR.  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HLYS<->HCYS  σ =    5.89 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HLYS<->HGLU  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HLYS<->HHIS  σ =    6.17 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HLYS<->HIS  σ =    6.17 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HLYS<->HLYS  σ =    6.06 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->ALA  σ =    4.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->ARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->ASN  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->ASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->BCYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->CTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->CYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->GLN  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->GLU  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->GLY  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->HARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->HASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HNTR<->HCTR.  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->HCYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->HGLU  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->HHIS  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HNTR<->HIS  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->HLYS  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HNTR<->HNTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->ALA  σ =    5.84 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->ARG  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->ASN  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->ASP  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->BCYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->CTR  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->CYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->GLN  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->GLU  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->GLY  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HARG  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HASP  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+    HTYR<->HCTR.  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HCYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HGLU  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HHIS  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      HTYR<->HIS  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HLYS  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HNTR  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     HTYR<->HTYR  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->ALA  σ =    5.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->ARG  σ =    6.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->ASN  σ =    5.69 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->ASP  σ =    5.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->BCYS  σ =    5.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->CTR  σ =    5.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->CYS  σ =    5.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->GLN  σ =     4.8 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->GLU  σ =    5.98 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->GLY  σ =    5.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HARG  σ =    6.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HASP  σ =    5.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     ILE<->HCTR.  σ =    5.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HCYS  σ =    5.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HGLU  σ =    5.98 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HHIS  σ =    6.04 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->HIS  σ =    6.04 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HLYS  σ =    5.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HNTR  σ =    5.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      ILE<->HTYR  σ =    6.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       ILE<->ILE  σ =     5.8 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->ALA  σ =     5.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->ARG  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->ASN  σ =    5.58 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->ASP  σ =    5.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->BCYS  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->CTR  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->CYS  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->GLN  σ =    4.69 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->GLU  σ =    5.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->GLY  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HARG  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HASP  σ =    5.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     LEU<->HCTR.  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HCYS  σ =    5.65 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HGLU  σ =    5.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HHIS  σ =    5.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->HIS  σ =    5.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HLYS  σ =    5.82 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HNTR  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LEU<->HTYR  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->ILE  σ =    5.69 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LEU<->LEU  σ =    5.58 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->ALA  σ =    5.54 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->ARG  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->ASN  σ =    5.82 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->ASP  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->BCYS  σ =    5.89 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->CTR  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->CYS  σ =    5.89 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->GLN  σ =    4.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->GLU  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->GLY  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HARG  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HASP  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     LYS<->HCTR.  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HCYS  σ =    5.89 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HGLU  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HHIS  σ =    6.17 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->HIS  σ =    6.17 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HLYS  σ =    6.06 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HNTR  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      LYS<->HTYR  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->ILE  σ =    5.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->LEU  σ =    5.82 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       LYS<->LYS  σ =    6.06 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->ALA  σ =    4.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->ARG  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->ASN  σ =    4.69 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->ASP  σ =    4.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->BCYS  σ =    4.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->CTR  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->CYS  σ =    4.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->GLN  σ =     3.8 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->GLU  σ =    4.98 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->GLY  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HARG  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HASP  σ =    4.87 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     MET<->HCTR.  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HCYS  σ =    4.76 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HGLU  σ =    4.98 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HHIS  σ =    5.04 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->HIS  σ =    5.04 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HLYS  σ =    4.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HNTR  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      MET<->HTYR  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->ILE  σ =     4.8 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->LEU  σ =    4.69 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->LYS  σ =    4.93 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       MET<->MET  σ =     3.8 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->ALA  σ =    4.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->ARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->ASN  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->ASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->BCYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->CTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->CYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->GLN  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->GLU  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->GLY  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HARG  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HASP  σ =    5.32 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     NTR<->HCTR.  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HCYS  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HGLU  σ =    5.43 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HHIS  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->HIS  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HLYS  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HNTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      NTR<->HTYR  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->ILE  σ =    5.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->LEU  σ =    5.14 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->LYS  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->MET  σ =    4.25 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       NTR<->NTR  σ =     4.7 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->ALA  σ =    5.72 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->ARG  σ =    6.54 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->ASN  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->ASP  σ =    6.18 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->BCYS  σ =    6.07 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->CTR  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->CYS  σ =    6.07 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->GLN  σ =    5.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->GLU  σ =    6.29 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->GLY  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HARG  σ =    6.54 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HASP  σ =    6.18 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     PHE<->HCTR.  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HCYS  σ =    6.07 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HGLU  σ =    6.29 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HHIS  σ =    6.35 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->HIS  σ =    6.35 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HLYS  σ =    6.24 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HNTR  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PHE<->HTYR  σ =    6.54 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->ILE  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->LEU  σ =       6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->LYS  σ =    6.24 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->MET  σ =    5.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->NTR  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PHE<->PHE  σ =    6.42 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->ALA  σ =    5.29 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->ARG  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->ASN  σ =    5.57 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->ASP  σ =    5.75 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->BCYS  σ =    5.64 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->CTR  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->CYS  σ =    5.64 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->GLN  σ =    4.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->GLU  σ =    5.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->GLY  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HARG  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HASP  σ =    5.75 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     PRO<->HCTR.  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HCYS  σ =    5.64 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HGLU  σ =    5.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HHIS  σ =    5.92 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->HIS  σ =    5.92 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HLYS  σ =    5.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HNTR  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      PRO<->HTYR  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->ILE  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->LEU  σ =    5.57 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->LYS  σ =    5.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->MET  σ =    4.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->NTR  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->PHE  σ =    5.99 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       PRO<->PRO  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->ALA  σ =    5.21 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->ARG  σ =    6.03 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->ASN  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->ASP  σ =    5.67 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->BCYS  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->CTR  σ =    5.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->CYS  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->GLN  σ =     4.6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->GLU  σ =    5.78 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->GLY  σ =    5.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HARG  σ =    6.03 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HASP  σ =    5.67 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     SER<->HCTR.  σ =    5.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HCYS  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HGLU  σ =    5.78 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HHIS  σ =    5.84 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->HIS  σ =    5.84 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HLYS  σ =    5.73 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HNTR  σ =    5.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      SER<->HTYR  σ =    6.03 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->ILE  σ =     5.6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->LEU  σ =    5.49 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->LYS  σ =    5.73 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->MET  σ =     4.6 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->NTR  σ =    5.05 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->PHE  σ =    5.91 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->PRO  σ =    5.48 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       SER<->SER  σ =     5.4 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->ALA  σ =    5.99 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->ARG  σ =    6.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->ASN  σ =    6.27 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->ASP  σ =    6.45 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->BCYS  σ =    6.34 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->CTR  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->CYS  σ =    6.34 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->GLN  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->GLU  σ =    6.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->GLY  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HARG  σ =    6.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HASP  σ =    6.45 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     TRP<->HCTR.  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HCYS  σ =    6.34 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HGLU  σ =    6.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HHIS  σ =    6.62 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->HIS  σ =    6.62 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HLYS  σ =    6.51 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HNTR  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TRP<->HTYR  σ =    6.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->ILE  σ =    6.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->LEU  σ =    6.27 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->LYS  σ =    6.51 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->MET  σ =    5.38 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->NTR  σ =    5.83 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->PHE  σ =    6.69 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->PRO  σ =    6.26 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->SER  σ =    6.18 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TRP<->TRP  σ =    6.96 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->ALA  σ =    5.84 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->ARG  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->ASN  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->ASP  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->BCYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->CTR  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->CYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->GLN  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->GLU  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->GLY  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HARG  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HASP  σ =     6.3 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     TYR<->HCTR.  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HCYS  σ =    6.19 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HGLU  σ =    6.41 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HHIS  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->HIS  σ =    6.47 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HLYS  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HNTR  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      TYR<->HTYR  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->ILE  σ =    6.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->LEU  σ =    6.12 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->LYS  σ =    6.36 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->MET  σ =    5.23 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->NTR  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->PHE  σ =    6.54 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->PRO  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->SER  σ =    6.03 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->TRP  σ =    6.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       TYR<->TYR  σ =    6.66 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->ALA  σ =    5.29 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->ARG  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->ASN  σ =    5.57 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->ASP  σ =    5.75 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->BCYS  σ =    5.64 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->CTR  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->CYS  σ =    5.64 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->GLN  σ =    4.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->GLU  σ =    5.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->GLY  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HARG  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HASP  σ =    5.75 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+     VAL<->HCTR.  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HCYS  σ =    5.64 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HGLU  σ =    5.86 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HHIS  σ =    5.92 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->HIS  σ =    5.92 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HLYS  σ =    5.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HNTR  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+      VAL<->HTYR  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->ILE  σ =    5.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->LEU  σ =    5.57 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->LYS  σ =    5.81 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->MET  σ =    4.68 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->NTR  σ =    5.13 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->PHE  σ =    5.99 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->PRO  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->SER  σ =    5.48 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->TRP  σ =    6.26 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->TYR  σ =    6.11 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+       VAL<->VAL  σ =    5.56 Å  ϵ = 0.04982 kT = 0.1235 kJ/mol
+  Temperature              298.15 K
+  Dielectric constant      78.7
+  T∂ϵ/ϵ∂T                  -1.39414
+  Bjerrum length           7.12142 Å
+  Cutoff                   24.8215 Å
+  Debye length             12.4107
+  Ionic strength           0.0602347
+
+ ..................................
+  Energy: Equilibrium State Energy  
+ **********************************
+  Number of sites          40
+  Processes:
+
+     AX <-> A         pKd      pX     pAX      pA       N     ⟨Z⟩
+  ----------------------------------------------------------------------
+   HARG <-> ARG        12       7      -0       5       0
+   HASP <-> ASP         4       7      -0      -3       6
+   HCYS <-> CYS      10.8       7      -0     3.8      12
+   HGLU <-> GLU       4.4       7      -0    -2.6       2
+   HHIS <-> HIS       6.3       7      -0    -0.7       4
+   HLYS <-> LYS      10.4       7      -0     3.4      10
+   HNTR <-> NTR       7.5       7      -0     0.5       0
+   HTYR <-> TYR       9.6       7      -0     2.6       6
+
+ ................................................
+  Energy: Group Mass Center Distance Constraints  
+ ************************************************
+  The following molecules have mass center constraints:
+    0sphere 1sphere 0-200 Å
+
+ .......................
+  MC Simulation Begins!  
+ ***********************
+  Steps:    1 / 50000       Macrosteps/min: 44      ETA: Wed Dec 27 20:43:27 2017
+  Steps:    2 / 100000      Macrosteps/min: 44      ETA: Wed Dec 27 20:43:26 2017
+  Steps:    3 / 150000      Macrosteps/min: 44      ETA: Wed Dec 27 20:43:26 2017
+  Steps:    4 / 200000      Macrosteps/min: 44      ETA: Wed Dec 27 20:43:27 2017
+  Steps:    5 / 250000      Macrosteps/min: 44      ETA: Wed Dec 27 20:43:26 2017
+  Steps:    6 / 300000      Macrosteps/min: 45      ETA: Wed Dec 27 20:43:26 2017
+  Steps:    7 / 350000      Macrosteps/min: 45      ETA: Wed Dec 27 20:43:26 2017
+  Steps:    8 / 400000      Macrosteps/min: 45      ETA: Wed Dec 27 20:43:26 2017
+  Steps:    9 / 450000      Macrosteps/min: 45      ETA: Wed Dec 27 20:43:26 2017
+  Steps:   10 / 500000      Macrosteps/min: 45      ETA: Wed Dec 27 20:43:26 2017
+
+ ...................
+  MC Steps and Time  
+ *******************
+  Steps (macro micro tot)  10∙50000 = 500000
+  Time elapsed             0.216667 min = 0.00361111 h
+
+ ....................................
+  Markov Move: P R O P A G A T O R S  
+ ************************************
+  Number of trials              500000
+  Relative time consumption     0
+  Acceptance                    0﹪
+  Runfraction                   100﹪
+  Total energy change           0 kT
+  Average energy                555.759
+  Initial energy                813.391 kT
+  Current energy                556.503 kT
+  Changed                       -256.889 kT
+  Absolute drift                2.59547e-10 kT
+  Relative drift                3.19092e-11﹪
+
+ ......................................................................
+  Markov Move: Group Rotation/Translation (N-body) (2-body, symmetric)  
+ **********************************************************************
+  Number of trials              250797
+  Relative time consumption     0.784292
+  Acceptance                    92.1594﹪
+  Runfraction                   100﹪
+  Total energy change           -1.63142 kT
+  Number of groups              2
+  Max. translation              ±7.5 Å
+  Max. rotation                 ±14.3239°
+  Move Statistics:
+    Group name          Acc. ﹪     √⟨dR²⟩/Å     √⟨dθ²⟩/°
+    0sphere             92.2        4.1         7.94        
+    1sphere             92.2        4.1         7.95        
+
+ .........................................
+  Markov Move: Site Titration - Swap Move  
+ *****************************************
+  Number of trials              398339
+  Relative time consumption     0.0898362
+  Acceptance                    2.68892﹪
+  Runfraction                   20﹪
+  Total energy change           -255.257 kT
+
+  Molecule: 0sphere
+
+    index   name        Z           
+    3       CYS         -0.000202122
+    8       ASP         -0.996243   
+    9       GLU         -0.986913   
+    10      ASP         -0.995301   
+    11      ASP         -0.997782   
+    14      CYS         -0.000203832
+    15      HIS         0.108507    
+    17      HIS         0.108606    
+    18      CYS         -0.000605694
+    19      LYS         0.999214    
+    22      LYS         0.999695    
+    24      TYR         -0.0110143  
+    25      LYS         0.998881    
+    28      TYR         -0.00669753 
+    29      CYS         -0.000101502
+    31      LYS         0.999697    
+    36      CYS         -0.000504032
+    37      LYS         0.998871    
+    38      CYS         -0.000497611
+    39      TYR         -0.00849772 
+
+  Molecule: 1sphere
+
+    index   name        Z           
+    3       CYS         -0.0002001  
+    8       ASP         -0.996284   
+    9       GLU         -0.986969   
+    10      ASP         -0.996568   
+    11      ASP         -0.996794   
+    14      CYS         -9.99201e-05
+    15      HIS         0.106115    
+    17      HIS         0.105046    
+    18      CYS         -0.000505868
+    19      LYS         0.999799    
+    22      LYS         0.999306    
+    24      TYR         -0.00917709 
+    25      LYS         0.999511    
+    28      TYR         -0.00657362 
+    29      CYS         -0.000100533
+    31      LYS         0.999594    
+    36      CYS         0           
+    37      LYS         0.999597    
+    38      CYS         -0.000605571
+    39      TYR         -0.00925553 
+
+Writing to file 'confout.pqr'. OK!
