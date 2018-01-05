@@ -1,19 +1,8 @@
-name: LU_compute
+name: SImultivalent
 channels:
-  - conda-forge
-  - defaults
+    - defaults
 dependencies:
-- mdtraj
-- python=3.6
-- numpy=1.13
-- scipy=1.0
-- pandas=0.21
-- matplotlib=2.1
-- notebook=5.2
-- jupyter=1.0
-- anaconda
-- pip:
-  - cmake==0.6.0
-  
-
- 
+    - python=3
+    - scipy
+    - pandas
+    - matplotlib=1
