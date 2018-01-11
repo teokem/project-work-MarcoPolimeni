@@ -1,7 +1,9 @@
 name: SImultivalent
 channels:
     - defaults
+    - omnia
 dependencies:
+    - mdtraj
     - python=3
     - scipy
     - pandas
