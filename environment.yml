@@ -2,7 +2,7 @@ name: SImultivalent
 channels:
     - defaults
     - omnia
-    -conda-forge
+    - conda-forge
 dependencies:
     - mdtraj
     - python=3
