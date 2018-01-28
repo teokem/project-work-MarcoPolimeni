@@ -2,9 +2,11 @@ name: SImultivalent
 channels:
     - defaults
     - omnia
+    -conda-forge
 dependencies:
     - mdtraj
     - python=3
     - scipy
     - pandas
     - matplotlib=1
+    - cmake
