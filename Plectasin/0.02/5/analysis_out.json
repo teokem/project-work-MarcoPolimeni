@@ -1,0 +1,41 @@
+{
+    "Charge Multipole": {
+        "mollist": {
+            "0sphere": {
+                "Z": 3.54158,
+                "Z2": 13.185076,
+                "mu": 63.5962796486956,
+                "mu2": 4090.43930614441,
+                "quad": -211579.921774524
+            },
+            "1sphere": {
+                "Z": 3.543952,
+                "Z2": 13.2075,
+                "mu": 63.570785278277,
+                "mu2": 4087.26013118937,
+                "quad": -210935.016634308
+            }
+        },
+        "nstep": 10,
+        "relative time": 0.00944723474096185,
+        "samples": 500000
+    },
+    "Molecular Pair Distribution Function": {
+        "0sphere-1sphere": {
+            "Rhyper": -1,
+            "dim": 1,
+            "dr": 0.1,
+            "file": "rdf.dat",
+            "file2": "rdf.dat.avg"
+        },
+        "nstep": 1,
+        "relative time": 0.00125841548147004,
+        "samples": 5000000
+    },
+    "XTC trajectory reporter": {
+        "citation": "http://manual.gromacs.org/online/xtc.html",
+        "nstep": 100,
+        "relative time": 0.00309993146522796,
+        "samples": 50000
+    }
+}

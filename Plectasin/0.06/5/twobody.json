@@ -1,0 +1,331 @@
+{
+    "energy": {
+        "nonbonded": {
+            "epsr": 78.7,
+            "cutoff": 24.821496060202872,
+            "coulombtype": "yukawa",
+            "debyelength": 12.410748030101436
+        },
+        "___eqstate": {
+            "processfile": "twobody.json"
+        },
+        "cmconstrain": {
+            "0sphere 1sphere": {
+                "maxdist": 200,
+                "mindist": 0
+            }
+        }
+    },
+    "system": {
+        "geometry": {
+            "length": 400,
+            "radius": 55
+        },
+        "mcloop": {
+            "macro": 100,
+            "micro": 50000
+        },
+        "temperature": 298.15
+    },
+    "moves": {
+        "moltransrot2body": {
+            "1sphere": {
+                "dprot": 0.5,
+                "dp": 15
+            },
+            "0sphere": {
+                "dprot": 0.5,
+                "dp": 15
+            }
+        },
+        "titrate": {
+            "prob": 0.2,
+            "processes": {
+                "H-His": {
+                    "bound": "HHIS",
+                    "pX": 5,
+                    "pKd": 6.3,
+                    "free": "HIS"
+                },
+                "H-Tyr": {
+                    "bound": "HTYR",
+                    "pX": 5,
+                    "pKd": 9.6,
+                    "free": "TYR"
+                },
+                "H-Asp": {
+                    "bound": "HASP",
+                    "pX": 5,
+                    "pKd": 4.0,
+                    "free": "ASP"
+                },
+                "H-Ntr": {
+                    "bound": "HNTR",
+                    "pX": 5,
+                    "pKd": 7.5,
+                    "free": "NTR"
+                },
+                "H-Cys": {
+                    "bound": "HCYS",
+                    "pX": 5,
+                    "pKd": 10.8,
+                    "free": "CYS"
+                },
+                "H-Lys": {
+                    "bound": "HLYS",
+                    "pX": 5,
+                    "pKd": 10.4,
+                    "free": "LYS"
+                },
+                "H-Arg": {
+                    "bound": "HARG",
+                    "pX": 5,
+                    "pKd": 12.0,
+                    "free": "ARG"
+                },
+                "H-Ctr": {
+                    "bound": "HCTR",
+                    "pX": 5,
+                    "pKd": 2.6,
+                    "free": "CTR"
+                },
+                "H-Glu": {
+                    "bound": "HGLU",
+                    "pX": 5,
+                    "pKd": 4.4,
+                    "free": "GLU"
+                }
+            }
+        }
+    },
+    "atomlist": {
+        "CTR": {
+            "mw": 16.0,
+            "sigma": 4.7,
+            "eps": 0.1235,
+            "q": -1
+        },
+        "SER": {
+            "mw": 82.04,
+            "sigma": 5.4,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "ILE": {
+            "mw": 102.07,
+            "sigma": 5.8,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HHIS": {
+            "mw": 130.08,
+            "sigma": 6.28,
+            "eps": 0.1235,
+            "q": 1
+        },
+        "HCYS": {
+            "mw": 98.1,
+            "sigma": 5.72,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HGLU": {
+            "mw": 122.06,
+            "sigma": 6.16,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "ASP": {
+            "mw": 110.05,
+            "sigma": 5.94,
+            "eps": 0.1235,
+            "q": -1
+        },
+        "HASP": {
+            "mw": 110.05,
+            "sigma": 5.94,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "NTR": {
+            "mw": 54.03,
+            "sigma": 4.7,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HLYS": {
+            "mw": 116.08,
+            "sigma": 6.06,
+            "eps": 0.1235,
+            "q": 1
+        },
+        "LEU": {
+            "mw": 111.14,
+            "sigma": 5.58,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HARG": {
+            "mw": 155.18,
+            "sigma": 6.66,
+            "eps": 0.1235,
+            "q": 1
+        },
+        "GLY": {
+            "mw": 54.03,
+            "sigma": 4.7,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "TYR": {
+            "mw": 154.1,
+            "sigma": 6.66,
+            "eps": 0.1235,
+            "q": -1
+        },
+        "LYS": {
+            "mw": 116.08,
+            "sigma": 6.06,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "GLU": {
+            "mw": 122.06,
+            "sigma": 6.16,
+            "eps": 0.1235,
+            "q": -1
+        },
+        "TRP": {
+            "mw": 176.13,
+            "sigma": 6.96,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HNTR": {
+            "mw": 54.03,
+            "sigma": 4.7,
+            "eps": 0.1235,
+            "q": 1
+        },
+        "VAL": {
+            "mw": 90.06,
+            "sigma": 5.56,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "ASN": {
+            "mw": 112.09,
+            "sigma": 5.58,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "BCYS": {
+            "mw": 98.1,
+            "sigma": 5.72,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HIS": {
+            "mw": 130.08,
+            "sigma": 6.28,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HCTR.": {
+            "mw": 16.0,
+            "sigma": 4.7,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "ALA": {
+            "mw": 66.04,
+            "sigma": 5.02,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "GLN": {
+            "mw": 120,
+            "sigma": 3.8,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "PRO": {
+            "mw": 90.06,
+            "sigma": 5.56,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "ARG": {
+            "mw": 155.18,
+            "sigma": 6.66,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "CYS": {
+            "mw": 98.1,
+            "sigma": 5.72,
+            "eps": 0.1235,
+            "q": -1
+        },
+        "PHE": {
+            "mw": 138.1,
+            "sigma": 6.42,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "MET": {
+            "mw": 122,
+            "sigma": 3.8,
+            "eps": 0.1235,
+            "q": 0
+        },
+        "HTYR": {
+            "mw": 154.1,
+            "sigma": 6.66,
+            "eps": 0.1235,
+            "q": 0
+        }
+    },
+    "analysis": {
+        "pqrfile": {
+            "file": "confout.pqr"
+        },
+        "molrdf": {
+            "nstep": 1,
+            "pairs": [
+                {
+                    "name2": "1sphere",
+                    "name1": "0sphere",
+                    "dim": 1,
+                    "file": "rdf.dat",
+                    "dr": 0.1
+                }
+            ]
+        },
+        "chargemultipole": {
+            "nstep": 10,
+            "mollist": [
+                "0sphere",
+                "1sphere"
+            ]
+        },
+        "xtcfile": {
+            "nstep": 100,
+            "file": "traj.xtc"
+        }
+    },
+    "moleculelist": {
+        "1sphere": {
+            "insoffset": "0 0 -40",
+            "structure": "../../../chain0.aam",
+            "Ninit": 1,
+            "insdir": "0 0 0"
+        },
+        "0sphere": {
+            "insoffset": "0 0 40",
+            "structure": "../../../chain0.aam",
+            "Ninit": 1,
+            "insdir": "0 0 0"
+        }
+    }
+}
