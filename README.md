@@ -8,7 +8,7 @@ conda env create -f environment.yml
 
 source activate environment
 
-Finally type
+Finally type:
 
 jupyter-notebook jupy_project.ipynb
 
