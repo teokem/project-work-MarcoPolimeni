@@ -5,6 +5,7 @@ If you work on your machine, first follow these instructions to [install Jupythe
 
 
 conda env create -f environment.yml
+
 source activate environment
 
 Finally type
